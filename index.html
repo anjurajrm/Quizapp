@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Quiz app name</title>
+    <meta name="description" content="Are you a Batman Fan? Take this quiz!!">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!--header -logo and title-->
+    <header role="banner">
+        <div class="logo"><img src="" alt="logo" /></div>
+        <h1> Quiz app</h1>
+    </header>
+    <main role="main" class="main">
+        <!--start page---->
+        <div class="start">
+            <img src=" " alt=" start-quiz "></div>
+        <button type="submit" class="button1">start</button>
+        </div>
+        <!-- for question number ans score part of the page-->
+        <div class="question-score">
+            <ul>
+                <li>Question: <span class="questionNumber">0</span>/10</li>
+                <li>Score: <span class="score">0</span></li>
+            </ul>
+        </div>
+        <!---- for question and options---->
+        <div class="question-ans">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore mgna aliqua?</h3>
+            <form>
+                <fieldset>
+                    <label class="ans">
+                        <input type="radio" value="0" name="answer" required>option 1
+                    </label><br>
+                    <label class="ans">
+                        <input type="radio" value="1" name="answer" required>option 2
+                    </label><br>
+                    <label class="ans">
+                        <input type="radio" value="2" name="answer" required>option 3
+                    </label><br>
+                    <label class="ans">
+                        <input type="radio" value="3" name="answer" required>option 4
+                </fieldset>
+                <div class="submit"><button type="submit" class="button2">Submit</button></div>
+            </form>`
+        </div>
+    </main>
+
+    <section class="rightAnswer">
+        <h2>you got it right!!</h2>
+        <img src=" " alt=" correct ">
+        <button type="submit" class="button2 ">Next question</button>
+    </section>
+
+    <section class="wrongAnswer">
+        <h2>incorrect</h2>
+        <img src=" " alt=" incorrect ">
+        <button type="submit" class="button2 ">Next question</button>
+    </section>
+
+    <section class="finalScore">
+        <h2>final score</h2>
+        <img src=" " alt=" start-quiz ">
+        <button type="reset" class="button3 ">Try again</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
